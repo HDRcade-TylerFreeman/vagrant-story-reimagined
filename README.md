@@ -1,6 +1,6 @@
 # VS Reimagined
 
-**An unofficial remaster of *Vagrant Story* (Square, 2000) for PC.**
+**An unofficial remaster of *Vagrant Story* (Square, 2000) for PC. Vagrant Story Reimagined: Echoes of Leá Monde**
 
 VS Reimagined starts from rood-boi, a native PC port that runs the game's decompiled
 code with a modern path-traced renderer, and takes it towards a full remaster:
@@ -25,7 +25,7 @@ Not affiliated with or endorsed by Square Enix.
 | **Engine** | PlayStation | Native PC code, Vulkan, path-traced lighting, 4K, widescreen | The same, plus [the fixes below](#fixes) for crashes and bugs that show up in a full playthrough |
 | **Artwork** | Original textures | Original textures; HD packs supported | **4K reimagined texture pack**: over 2,000 textures, hand-corrected, original faces kept; stays HD through menus, targeting and spells |
 | **Scenery** | Flat | Flat | **Raised stone relief** through tessellation *(in development)* |
-| **Voices** | Text only | Text only | **Full voice acting**: over 1,100 lines, plus the narration screens |
+| **Voices** | Text only | Text only | **Full voice acting**: over 1,100 lines, plus the narration screens dubbed "Echoes of Leá Monde" |
 | **Companion** | None | Merlose joins you (Two's A Riot) | **Merlose in the modern menus**: her gear, her items marked, behaviour modes (Aggressive, Balanced, Healer, No casting) on a key or R3 |
 | **Inventory** | Original limits | Original limits | **Three times the equipment space**; saves stay compatible with the original |
 | **Combat** | Original | Quick weapon swap | **Chain assist** toggle (L3), **fast casting** (hold R2) |
