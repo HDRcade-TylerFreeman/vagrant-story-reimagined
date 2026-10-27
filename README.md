@@ -10,6 +10,9 @@ code with a modern path-traced renderer, and takes it towards a full remaster:
 - modern menus, a bigger inventory and dozens of quality-of-life options;
 - fixes for crashes found over many hours of streamed playthroughs.
 
+None of this would be possible without the rood-reverse decompilation, rood-boi and
+Daemeous's fork: see [Credits and thanks](#credits-and-thanks).
+
 Not affiliated with or endorsed by Square Enix.
 
 **Source code release: coming later.** Follow development on YouTube:
@@ -17,7 +20,7 @@ Not affiliated with or endorsed by Square Enix.
 
 ## What's different
 
-| | PS1 original | rood-boi (the port this builds on) | **VS Reimagined** |
+| | PS1 original | rood-boi and Daemeous's fork (what this builds on) | **VS Reimagined** |
 |---|---|---|---|
 | **Engine** | PlayStation | Native PC code, Vulkan, path-traced lighting, 4K, widescreen | The same, plus [the fixes below](#fixes) for crashes and bugs that show up in a full playthrough |
 | **Artwork** | Original textures | Original textures; HD packs supported | **4K reimagined texture pack**: over 2,000 textures, hand-corrected, original faces kept; stays HD through menus, targeting and spells |
@@ -92,9 +95,28 @@ No game data is included or will be. You will need your own copy of the game.
 VS Reimagined is and will stay free. If you'd like to support my work:
 [Patreon](https://patreon.com/HDRcade) · [Ko-fi](https://ko-fi.com/hdrcade)
 
-## Credits
-- [rood-reverse](https://github.com/ser-pounce/rood-reverse), the decompilation, started by
-  ser-pounce
-- rood-boi, noprompt's native PC port
-- Daemeous's rood-boi fork and Two's A Riot (Merlose as a companion)
-- eremtsov's QoL mod (the quick weapon swap)
+## Credits and thanks
+
+VS Reimagined stands on some remarkable work. Please check out and support these projects:
+
+- **[rood-reverse](https://github.com/ser-pounce/rood-reverse)** by
+  [ser-pounce](https://github.com/ser-pounce): the decompilation that turned *Vagrant Story* back
+  into readable C that rebuilds the original game byte for byte. No native port could exist
+  without it. [Lil' Sassy](https://github.com/lil-sassy) is one of its most prolific
+  contributors.
+- **[rood-boi](https://github.com/noprompt/rood-boi)** by [noprompt](https://github.com/noprompt):
+  the native PC port this is built on, and a huge achievement in its own right. Its features
+  include:
+  - rendering from native meshes on Vulkan, with ray-traced shadows and path-traced lighting;
+  - a live lighting editor;
+  - the modern menus, widescreen and much more.
+- **[Daemeous's rood-boi fork](https://github.com/Daemeous/rood-boi)** by
+  [Daemeous](https://github.com/Daemeous): Two's A Riot, which brings Merlose along as your
+  companion, plus HD texture pack support and ready-made player builds.
+- **[eremtsov's Vagrant Story QoL mod](https://github.com/eremtsov/rood-reverse)**: the quick
+  weapon swap.
+- **[Andrew Kuhar](https://andrewkuhar.com)**'s
+  [Vagrant Story UI Remaster](https://andrewkuhar.com/blog/the-phantom-pain/) design, which
+  inspired rood-boi's modern menus.
+- **[Kenney](https://kenney.nl)**'s [Input Prompts](https://kenney.nl/assets/input-prompts) for
+  the button icons.
