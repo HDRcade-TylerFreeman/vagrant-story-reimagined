@@ -40,29 +40,27 @@ appear many hours in, so VS Reimagined is tested by playing it through on stream
 crash found gets fixed. Fixed so far:
 
 **Crashes**
-- Leaving a room after one of the numbered blocks has vanished (the Iron Maiden block
-  puzzles)
-- A character linked to an empty slot, a few frames after entering a room
-- A character standing off the room's floor map
-- An enemy chasing or facing a character that is no longer there (groups of goblins)
-- Old text left in hidden dialogue boxes, with modern text on (a doorway early in a New Game)
-- An enemy turning towards a character whose model is gone (the ogres in the Limestone
-  Quarry)
-- A sound requested before its sound bank is loaded (the title screen's demo)
+- Leaving a room after one of the numbered blocks has vanished.
+- A character linked to an empty slot, a few frames after entering a room.
+- A character standing off the room's floor map.
+- An enemy chasing or facing a character that is no longer there.
+- Old text left in hidden dialogue boxes, with modern text on.
+- An enemy turning towards a character whose model is gone.
+- A sound requested before its sound bank is loaded.
 
 **Gameplay**
 - The Giant Crab's Aqua Bubble and the Wyvern's Fire Breath had no animation and did no
-  damage
-- With Merlose in the party, a Ghost could take on her body instead of its own
+  damage. Likely fixed other enemies as well.
+- With Merlose in the party, a Ghost could take on her body instead of its own.
 
 **Graphics**
-- Ghosts' inner bodies drawn in the right order and opacity, as on the PlayStation
-- HD textures no longer drop back to the originals in menus, while targeting or during spells
+- Ghosts' inner bodies drawn in the right order and opacity, as on the PlayStation.
+- HD textures no longer drop back to the originals in menus, while targeting or during spells.
 - Broken images in HD texture packs are skipped instead of drawn (the burning manor's
-  colours)
+  colours).
 
 **Menus**
-- The modern Data screen said "No room on the card" for every slot, so you couldn't save from it
+- The modern Data screen said "No room on the card" for every slot, so you couldn't save from it.
 
 More are being worked on.
 
