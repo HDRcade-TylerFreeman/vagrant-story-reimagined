@@ -5,9 +5,10 @@
 VS Reimagined starts from rood-boi, a native PC port that runs the game's decompiled
 code with a modern path-traced renderer, and takes it towards a full remaster:
 - new 4K artwork and raised stone relief;
-- full voice acting;
+- full voice acting, with Ashley remarking on the world as you play;
 - Merlose fighting at Ashley's side;
-- modern menus, a bigger inventory and dozens of quality-of-life options;
+- modern menus, a Bestiary, a bigger inventory and dozens of quality-of-life options;
+- a lantern, embers and other subtle effects lit by the path tracer;
 - fixes for crashes found over many hours of streamed playthroughs.
 
 None of this would be possible without the rood-reverse decompilation, rood-boi and
@@ -24,14 +25,16 @@ Not affiliated with or endorsed by Square Enix.
 |---|---|---|---|
 | **Engine** | PlayStation | Native PC code, Vulkan, path-traced lighting, 4K, widescreen | The same, plus [the fixes below](#fixes) for crashes and bugs that show up in a full playthrough |
 | **Artwork** | Original textures | Original textures; HD packs supported | **4K reimagined texture pack**: over 2,000 textures, hand-corrected, original faces kept; stays HD through menus, targeting and spells |
-| **Scenery** | Flat | Flat | **Raised stone relief** through tessellation *(in development)* |
-| **Voices** | Text only | Text only | **Full voice acting**: over 1,100 lines, plus the narration screens dubbed "Echoes of Leá Monde" |
-| **Companion** | None | Merlose joins you (Two's A Riot) | **Merlose in the modern menus**: her gear, her items marked, behaviour modes (Aggressive, Balanced, Healer, No casting) on a key or R3 |
+| **Scenery** | Flat | Flat | **Raised stone relief** through tessellation, with separate strength for walls, floors and props and an F11 before/after toggle *(spreading to more rooms)* |
+| **Voices** | Text only | Text only | **Full voice acting**: over 1,100 lines, plus the narration screens dubbed "Echoes of Leá Monde". **Ashley's remarks**: 143 lines on his Risk, wounds and ailments, new areas, bosses, each key and sigil he finds |
+| **Bestiary** | None | None | **A Bestiary tab**: every creature and character you meet, with its lore, stats, weaknesses and a rotating 3D model, each entry read by a narrator |
+| **Companion** | None | Merlose joins you (Two's A Riot) | **Merlose in the modern menus**: her gear, her items marked, behaviour modes (Aggressive, Balanced, Healer, No casting, or No action: she just follows and enemies leave her be) |
 | **Inventory** | Original limits | Original limits | **Three times the equipment space**; saves stay compatible with the original |
-| **Combat** | Original | Quick weapon swap | **Chain assist** toggle (L3), **fast casting** (hold R2) |
-| **Progress** | None | None | **Achievements** for bosses and endings |
-| **Options** | None | Graphics and camera options | **Cheats page**: damage multiplier, Never zero, Risk, weapon growth, No wear, Workshop anywhere, Infinite HP, Pause AI |
-| **Presentation** | Original | 16:9 option | Widescreen with 4:3 kept for cutscenes or menus if you like, your own title screen and intro images, room-start quick reload (F10), HD on/off toggle (F8) |
+| **Combat** | Original | Quick weapon swap | **Chain assist** toggle, **fast casting** (hold R2), and a **quick menu** (L3) for Merlose's mode, accessories, the lantern, the camera and more |
+| **Effects** | Original | Path-traced lighting | **Ashley's lantern**, a path-traced light that casts his shadow; **subtle HD effects**: a Risk aura, embers rising from braziers and hearths, dust in the light. All optional, Remaster mode only |
+| **Progress** | None | None | **Achievements** for bosses, keys and sigils, the endings and a complete Bestiary |
+| **Options** | None | Graphics and camera options | **Cheats page**: damage multiplier, Never zero, Risk, weapon growth, No wear, Workshop anywhere, Infinite HP, Pause AI, healing at Circles of Magic. Separate music, sound effect and voice volumes |
+| **Presentation** | Original | 16:9 option | **Remaster, HD or Original** presentation at a switch. **30, 60 or 120 fps** (30 for frame generation tools). Over-the-shoulder camera. Widescreen with 4:3 kept for cutscenes or menus if you like, your own title screen and intro images, room-start quick reload (F10), HD on/off toggle (F8) |
 
 ## Fixes
 
@@ -52,12 +55,17 @@ crash found gets fixed. Fixed so far:
 - The Giant Crab's Aqua Bubble and the Wyvern's Fire Breath had no animation and did no
   damage. Likely fixed other enemies as well.
 - With Merlose in the party, a Ghost could take on her body instead of its own.
+- Late in a playthrough, potions and grimoires in the modern Items menu could stick on
+  "Loading..." and could not be used.
 
 **Graphics**
 - Ghosts' inner bodies drawn in the right order and opacity, as on the PlayStation.
 - HD textures no longer drop back to the originals in menus, while targeting or during spells.
 - Broken images in HD texture packs are skipped instead of drawn (the burning manor's
   colours).
+- The idle demo's narration screens left the game showing through at the sides in widescreen.
+- A cutscene camera standing against a door (Hardin at the burning manor) showed nothing but
+  the door; it now frames him as the PlayStation did.
 
 **Menus**
 - The modern Data screen said "No room on the card" for every slot, so you couldn't save from it.
